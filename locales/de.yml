@@ -1,0 +1,51 @@
+de:
+  devise:
+    mailer:
+      confirmation_instructions:
+        subject: "Anweisungen für die Bestätigung"
+        greeting: "Wilkommen %{recepient}!"
+        instruction: "Du kannst deine Account-Mail mit dem folgenden Link bestätigen:"
+        action: "Account bestätigen"
+      reset_password_instructions:
+        subject: "Anweisungen zur Passwortrücksetzung"
+        greeting: "Hallo %{recepient}!"
+        instruction: "Jemand hat einen Link zum Passwort ändern angefordert. Zum ändern bitte auf den Link klicken."
+        action: "Passwort ändern."
+        instruction_2: "Falls du diese Mail nicht angefordert hast, bitte einfach ignorieren."
+        instruction_3: "Dein Passwort wird nicht geändert bis du auf den link klickst."
+      unlock_instructions:
+        subject: "Anleitung zum Entsperren"
+        greeting: "Hallo %{recepient}!"
+        message: "Dein Account wurde wegen zu vieler fehlgeschlagenen Login-Versuche gesperrt."
+        instruction: "Klick auf den Link um deinen Account zu entsperren:"
+        action: "Account entsperren"
+    confirmations:
+      new:
+        resend_confirmation_instructions: "Bestätigungsmail nochmals senden"
+    passwords:
+      new:
+        forgot_your_password: "Passwort vergessen?"
+        send_me_reset_password_instructions: "Passwort zurücksetzen?"
+    registrations:
+      edit:
+        title: "%{resource} Ändern"
+        leave_blank_if_you_don_t_want_to_change_it: "leave blank if you dont want to change it"
+        we_need_your_current_password_to_confirm_your_changes: "we need your current password to confirm your changes"
+        cancel_my_account: "Cancel my account"
+        are_you_sure: "Are you sure?"
+      new:
+        sign_up: "Sign up"
+    sessions:
+      new:
+        sign_in: "Einloggen"
+    shared:
+      links:
+        didn_t_receive_confirmation_instructions: "Didn't receive confirmation instructions?"
+        didn_t_receive_unlock_instructions: "Didn't receive unlock instructions?"
+        forgot_your_password: "Forgot your password?"
+        sign_in: "Einloggen"
+        sign_up: "Sign up"
+        sign_in_with_provider: "Mit %{provider} einloggen"
+    unlocks:
+      new:
+        resend_unlock_instructions: "Resend unlock instructions"
