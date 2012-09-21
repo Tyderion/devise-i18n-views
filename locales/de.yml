@@ -29,10 +29,10 @@ de:
     registrations:
       edit:
         title: "%{resource} Ändern"
-        leave_blank_if_you_don_t_want_to_change_it: "leave blank if you dont want to change it"
-        we_need_your_current_password_to_confirm_your_changes: "we need your current password to confirm your changes"
-        cancel_my_account: "Cancel my account"
-        are_you_sure: "Are you sure?"
+        leave_blank_if_you_don_t_want_to_change_it: "für keine Änderung leer lassen"
+        we_need_your_current_password_to_confirm_your_changes: "wir brauchen dein jetziges Passwort um die Änderungen zu bestätigen"
+        cancel_my_account: "Account auflösen"
+        are_you_sure: "Bist du dir sicher?"
       new:
         sign_up: "Sign up"
     sessions:
@@ -40,12 +40,12 @@ de:
         sign_in: "Einloggen"
     shared:
       links:
-        didn_t_receive_confirmation_instructions: "Didn't receive confirmation instructions?"
-        didn_t_receive_unlock_instructions: "Didn't receive unlock instructions?"
-        forgot_your_password: "Forgot your password?"
+        didn_t_receive_confirmation_instructions: "Bestätigungsmail nicht bekommen?"
+        didn_t_receive_unlock_instructions: "nleitung zum Entsperren nicht bekommen?"
+        forgot_your_password: "Passwort vergessen?"
         sign_in: "Einloggen"
-        sign_up: "Sign up"
+        sign_up: "Registrieren"
         sign_in_with_provider: "Mit %{provider} einloggen"
     unlocks:
       new:
-        resend_unlock_instructions: "Resend unlock instructions"
+        resend_unlock_instructions: "Anleitung zum Entsperren erneut senden?"
